@@ -1,0 +1,32 @@
+1) (Done) Create a sticky header with the turnstyles logo
+2) Get the ScrollTo elements to scroll the top to right below the sticky header
+3) Pin origins and have nocomputer and codefun slide in from the right
+4) Slide ins for Dilemma, Cruenti Dei, Blood-Stained Gods, Old Imperial
+
+4) Mouse Highlights and links for Toc
+5) Animate to Origins
+6) Animate Toc
+
+7) Mouse Highlights and links for The Dilemma (Stars!, Dark Cults, Cruenti Dei)
+
+8) External links for (The Isles, Tribenet, Lords, Vassal, BGA, Choice of Games, Discourse, Discord, Redwood, Grapes, XState, Redblob, QGIS, Kepler)
+
+9) Internal links for (OI, Dark Commonwealth, De Profundis, Lord of the Earth Future)
+
+10) Add mouseover text and paragraphs of everything
+11) record the voice for everything
+
+Music(Tuvan, Iggy, Dr Who, X Files, Orb, Yacht, Dhaka)
+Improve (Grammars, Rules and Maps sections)
+
+Animate the principles at any location in the presentation to the header
+Have Turnstyles rotate character by character in
+Have Headers rotate character by character in or animate from Sidebar
+Sub page navigation in sidebar
+
+Later
+Create the Comic Book
+A Map tool with Data Brushes
+A Rules Interface
+The CMS Interface
+Space Opera

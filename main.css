@@ -1,0 +1,92 @@
+html {
+    font-family: "Gorey";
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 2em;
+    align-content: baseline;
+    background-color: #F2F2F2;
+    height: 160px;
+    border-width: 4px 0 4px 0;
+    border-style: solid;
+    border-color: #cdcdcd;
+}
+
+menu {
+    position: sticky;
+    top: 0;
+    font-size: 2em;
+    align-content: baseline;
+    background-color: #F2F2F2;
+    height: 160px;
+    z-index: 10;
+    border-width: 4px 0 4px 0;
+    border-style: solid;
+    border-color: #cdcdcd;
+}
+
+nav {
+    position: fixed;
+    color: #ffffff;
+    font-size: .6em;
+    top: 10px;
+    right: 10px;
+    background: #333;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+nav a {
+    line-height: 1.7;
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 0.9;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    opacity: 1
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+ul {
+    font-size: 2em;
+    list-style-type: none;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#yearcounter {
+    position: absolute;
+    text-align: center;
+    top:1260px;
+    left: 50vw;
+    height: 80px;
+    z-index: 4000;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+@font-face {
+    font-family: "Gorey";
+    src: url("./img/fonts/Gorey.ttf");
+}
