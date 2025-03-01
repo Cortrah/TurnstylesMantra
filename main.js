@@ -53,3 +53,25 @@ gsap.to('.yearcounter', {
   pin: true,
   left: 500
 });
+
+function scroll() {
+  let overflow = 0;
+  const row = document.querySelector( '.slides-row' ).scrollWidth;
+  const wrapper = document.querySelector( '.slides-wrapper' ).offsetWidth;
+  overflow = -( row - wrapper );
+  return overflow;
+}
+
+window.addEventListener( 'resize', scroll );
+
+gsap.to( '.slides-row', {
+  x: scroll(),
+  ease: 'none',
+  scrollTrigger: {
+    trigger: '.section.slides',
+    pin: true,
+    scrub: 1,
+    markers: true,
+    invalidateOnRefresh: true,
+  },
+});
